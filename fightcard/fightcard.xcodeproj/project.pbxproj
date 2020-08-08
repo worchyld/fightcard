@@ -91,9 +91,7 @@
 				4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */,
 				4D132A0224DEF87D006D40C8 /* ContentView.swift */,
 				4D132A2624DF041E006D40C8 /* AvatarView.swift */,
-				4D132A2024DF021F006D40C8 /* Fighter.swift */,
-				4D132A2224DF0265006D40C8 /* Card.swift */,
-				4D132A2424DF028A006D40C8 /* Segment.swift */,
+				4D132A2824DF0484006D40C8 /* Models */,
 				4D132A0424DEF87E006D40C8 /* Assets.xcassets */,
 				4D132A0924DEF87E006D40C8 /* LaunchScreen.storyboard */,
 				4D132A0C24DEF87E006D40C8 /* Info.plist */,
@@ -117,6 +115,16 @@
 				4D132A1724DEF87E006D40C8 /* Info.plist */,
 			);
 			path = fightcardTests;
+			sourceTree = "<group>";
+		};
+		4D132A2824DF0484006D40C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D132A2024DF021F006D40C8 /* Fighter.swift */,
+				4D132A2224DF0265006D40C8 /* Card.swift */,
+				4D132A2424DF028A006D40C8 /* Segment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
