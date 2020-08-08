@@ -19,12 +19,19 @@ struct ContentView: View {
             VStack {
                 Text("Middleweight · Main Event")
                 HStack {
-                    Image("derek-brunson")
+                    AvatarView(imageName: "derek-brunson")
                     VStack {
                         Text("Derek Brunson")
-                        Text("21 - 7 - 0")
+                        Text("21 - 7 - 0").font(.caption)
                     }
                 }
+                HStack {
+                   AvatarView(imageName: "edmen-shahbazyan")
+                   VStack {
+                       Text("Edmen Shahbazyan")
+                       Text("11 - 1 - 0").font(.caption)
+                   }
+               }
             }
         }
     }

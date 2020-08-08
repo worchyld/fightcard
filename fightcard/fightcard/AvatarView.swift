@@ -12,6 +12,13 @@ struct AvatarView: View {
     let imageName: String
     var body: some View {
         Image(self.imageName)
+            .resizable()
+            .frame(maxWidth: 70, maxHeight: 70, alignment: .center)
+            .clipShape(Circle())
+                   .shadow(radius: 10)
+                   .overlay(
+                    Circle().stroke(Color(UIColor(red:135, green: 135, blue: 135, alpha: 1)),
+                                     lineWidth: 2))
     }
 }
 
