@@ -13,27 +13,21 @@ struct ContentView: View {
         GeometryReader { geometry in
             VStack {
                 VStack(alignment: .center, spacing: 1.0) {
-                    Text("UFC Fight Night").font(.headline)
-                    Text("Sun, 2 Aug").font(.caption)
+                    Text("UFC Fight Night").font(.title).padding(.bottom, 10.0)
+                    Text("Sun, 2 Aug 2020").font(.caption)
                     Text("Venue: UFC Apex, Las Vegas").font(.caption)
                 }
                 VStack {
                     Text("Middleweight · Main Event")
-                    HStack(alignment: .center, spacing: 1.0) {
+                        .font(.headline)
+                        .padding(.top, 10.0)
+                    HStack(alignment: .center, spacing: 15.0) {
                         HStack {
-                             Image("derek-brunson")
-                                .resizable()
-                                .frame(maxWidth:60, maxHeight: 60, alignment: .center)
-                                .clipShape(Circle())
-                                    .shadow(radius: 10)
-                                    .overlay(
-                                     Circle().stroke(Color(UIColor(red:135, green: 135, blue: 135, alpha: 1)),
-                                                      lineWidth: 2))
-                            VStack(alignment: .leading, spacing: 2.0) {
-                                Text("Derek Brunson").font(.headline)
-                                Text("21 - 7 - 0").font(.caption)
-                             }
-                         }
+                            FighterCellView(fighter: Fighter(name: "Derek Brunson", avatar: "derek-brunson", wins: 21, draws: 7, losses: 0))
+                        }
+                        HStack {
+                            FighterCellView(fighter: Fighter(name: "Khabib Nurmagomedov", avatar: "khabib-nurmagomedov", wins: 29, draws: 0, losses: 0))
+                        }
                     }
                 }
             }
