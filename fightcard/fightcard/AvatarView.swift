@@ -13,7 +13,7 @@ struct AvatarView: View {
     var body: some View {
         Image(self.imageName)
             .resizable()
-            .frame(maxWidth: 70, maxHeight: 70, alignment: .center)
+            .frame(maxWidth: 60, maxHeight: 60, alignment: .center)
             .clipShape(Circle())
                    .shadow(radius: 10)
                    .overlay(

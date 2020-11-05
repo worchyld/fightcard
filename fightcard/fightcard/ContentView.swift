@@ -13,7 +13,7 @@ struct ContentView: View {
         GeometryReader { geometry in
             VStack {
                 VStack(alignment: .center, spacing: 1.0) {
-                    Text("UFC Fight Night").font(.title).padding(.bottom, 10.0)
+                    Text("UFC Fight Night Card").font(.title).padding(.bottom, 10.0)
                     Text("Sun, 2 Aug 2020").font(.caption)
                     Text("Venue: UFC Apex, Las Vegas").font(.caption)
                 }
