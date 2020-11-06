@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D07336A2554F7CA00849C62 /* Fighters.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0733692554F7CA00849C62 /* Fighters.xcassets */; };
+		4D07336F2554F84200849C62 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733622554F5D700849C62 /* Fighter.swift */; };
+		4D0733722554F84500849C62 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733632554F5D700849C62 /* Card.swift */; };
+		4D0733752554F84800849C62 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733642554F5D700849C62 /* Segment.swift */; };
 		4D1329FF24DEF87D006D40C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1329FE24DEF87D006D40C8 /* AppDelegate.swift */; };
 		4D132A0124DEF87D006D40C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */; };
 		4D132A0324DEF87D006D40C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A0224DEF87D006D40C8 /* ContentView.swift */; };
@@ -14,9 +18,6 @@
 		4D132A0824DEF87E006D40C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D132A0724DEF87E006D40C8 /* Preview Assets.xcassets */; };
 		4D132A0B24DEF87E006D40C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D132A0924DEF87E006D40C8 /* LaunchScreen.storyboard */; };
 		4D132A1624DEF87E006D40C8 /* fightcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A1524DEF87E006D40C8 /* fightcardTests.swift */; };
-		4D132A2124DF021F006D40C8 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2024DF021F006D40C8 /* Fighter.swift */; };
-		4D132A2324DF0265006D40C8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2224DF0265006D40C8 /* Card.swift */; };
-		4D132A2524DF028A006D40C8 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2424DF028A006D40C8 /* Segment.swift */; };
 		4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2624DF041E006D40C8 /* AvatarView.swift */; };
 		4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0733622554F5D700849C62 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+		4D0733632554F5D700849C62 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4D0733642554F5D700849C62 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		4D0733692554F7CA00849C62 /* Fighters.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fighters.xcassets; sourceTree = "<group>"; };
 		4D1329FB24DEF87D006D40C8 /* fightcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fightcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1329FE24DEF87D006D40C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +48,6 @@
 		4D132A1124DEF87E006D40C8 /* fightcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fightcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D132A1524DEF87E006D40C8 /* fightcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fightcardTests.swift; sourceTree = "<group>"; };
 		4D132A1724DEF87E006D40C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D132A2024DF021F006D40C8 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
-		4D132A2224DF0265006D40C8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		4D132A2424DF028A006D40C8 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		4D132A2624DF041E006D40C8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0733612554F5D700849C62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D0733622554F5D700849C62 /* Fighter.swift */,
+				4D0733632554F5D700849C62 /* Card.swift */,
+				4D0733642554F5D700849C62 /* Segment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4D1329F224DEF87D006D40C8 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +106,9 @@
 				4D132A0224DEF87D006D40C8 /* ContentView.swift */,
 				4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */,
 				4D132A2624DF041E006D40C8 /* AvatarView.swift */,
-				4D132A2824DF0484006D40C8 /* Models */,
+				4D0733612554F5D700849C62 /* Models */,
 				4D132A0424DEF87E006D40C8 /* Assets.xcassets */,
+				4D0733692554F7CA00849C62 /* Fighters.xcassets */,
 				4D132A0924DEF87E006D40C8 /* LaunchScreen.storyboard */,
 				4D132A0C24DEF87E006D40C8 /* Info.plist */,
 				4D132A0624DEF87E006D40C8 /* Preview Content */,
@@ -118,16 +131,6 @@
 				4D132A1724DEF87E006D40C8 /* Info.plist */,
 			);
 			path = fightcardTests;
-			sourceTree = "<group>";
-		};
-		4D132A2824DF0484006D40C8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4D132A2024DF021F006D40C8 /* Fighter.swift */,
-				4D132A2224DF0265006D40C8 /* Card.swift */,
-				4D132A2424DF028A006D40C8 /* Segment.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D132A0B24DEF87E006D40C8 /* LaunchScreen.storyboard in Resources */,
+				4D07336A2554F7CA00849C62 /* Fighters.xcassets in Resources */,
 				4D132A0824DEF87E006D40C8 /* Preview Assets.xcassets in Resources */,
 				4D132A0524DEF87E006D40C8 /* Assets.xcassets in Resources */,
 			);
@@ -232,11 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1329FF24DEF87D006D40C8 /* AppDelegate.swift in Sources */,
-				4D132A2524DF028A006D40C8 /* Segment.swift in Sources */,
+				4D07336F2554F84200849C62 /* Fighter.swift in Sources */,
+				4D0733722554F84500849C62 /* Card.swift in Sources */,
+				4D0733752554F84800849C62 /* Segment.swift in Sources */,
 				4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */,
 				4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */,
-				4D132A2124DF021F006D40C8 /* Fighter.swift in Sources */,
-				4D132A2324DF0265006D40C8 /* Card.swift in Sources */,
 				4D132A0124DEF87D006D40C8 /* SceneDelegate.swift in Sources */,
 				4D132A0324DEF87D006D40C8 /* ContentView.swift in Sources */,
 			);
@@ -323,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -378,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -397,6 +401,7 @@
 				DEVELOPMENT_TEAM = A48R25Y4D5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = fightcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,6 +422,7 @@
 				DEVELOPMENT_TEAM = A48R25Y4D5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = fightcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

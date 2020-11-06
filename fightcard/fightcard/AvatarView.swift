@@ -11,6 +11,7 @@ import SwiftUI
 struct AvatarView: View {
     let imageName: String
     var body: some View {
+        //Image(uiImage: UIImage(named: self.imageName)!)
         Image(self.imageName)
             .resizable()
             .frame(maxWidth: 60, maxHeight: 60, alignment: .center)
