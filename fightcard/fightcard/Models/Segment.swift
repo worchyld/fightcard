@@ -11,5 +11,6 @@ import Foundation
 struct Segment {
     let title: String?
     let subtitle: String?
-    var fighters: [Fighter]?
+    var fighterLeft: Fighter?
+    var fighterRight: Fighter?
 }

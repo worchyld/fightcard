@@ -14,18 +14,14 @@ struct ContentView: View {
             VStack {
                 CardTitleView(cardTitle: CardTitle(headline: "UFC Fight Night Card", date: "Sun, 2 Aug 2020", venue: "Venue: UFC Apex, Las Vegas")
                 )
-                VStack {
-                    Text("Middleweight · Main Event")
-                        .font(.caption).fontWeight(.bold)
-                        .padding(.top, 10.0)
-                    
+                            
+                List {
                     HStack(alignment: .center, spacing: 10.0, content: {
                         FighterLeftCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2))
                         )
                         FighterRightCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2))
                         )
                     }).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    
                 }
             }
             .frame(width: geometry.size.width,

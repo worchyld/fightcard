@@ -82,9 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				4D0733622554F5D700849C62 /* Fighter.swift */,
+				4DA3CAC72570D92500315454 /* WinLossRecord.swift */,
 				4D0733642554F5D700849C62 /* Segment.swift */,
 				4D0733632554F5D700849C62 /* Card.swift */,
-				4DA3CAC72570D92500315454 /* WinLossRecord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

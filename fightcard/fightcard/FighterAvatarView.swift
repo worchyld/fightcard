@@ -18,7 +18,7 @@ struct FighterAvatarView: View {
                    .shadow(radius: 10)
                    .overlay(
                     Circle().stroke(Color(UIColor(red:135, green: 135, blue: 135, alpha: 1)),
-                                     lineWidth: 2))
+                                    lineWidth: 2))
     }
 }
 

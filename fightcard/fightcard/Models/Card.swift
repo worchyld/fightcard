@@ -12,5 +12,5 @@ struct Card {
     let name: String
     let venue: String
     let date: String
-    var segments: [Segment]!
+    var segments: [Segment]?
 }
