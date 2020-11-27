@@ -11,6 +11,7 @@
 		4D07336F2554F84200849C62 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733622554F5D700849C62 /* Fighter.swift */; };
 		4D0733722554F84500849C62 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733632554F5D700849C62 /* Card.swift */; };
 		4D0733752554F84800849C62 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0733642554F5D700849C62 /* Segment.swift */; };
+		4D07337B2554FA3D00849C62 /* WinLossRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07337A2554FA3D00849C62 /* WinLossRecordView.swift */; };
 		4D1329FF24DEF87D006D40C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1329FE24DEF87D006D40C8 /* AppDelegate.swift */; };
 		4D132A0124DEF87D006D40C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */; };
 		4D132A0324DEF87D006D40C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A0224DEF87D006D40C8 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 		4D132A1624DEF87E006D40C8 /* fightcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A1524DEF87E006D40C8 /* fightcardTests.swift */; };
 		4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2624DF041E006D40C8 /* AvatarView.swift */; };
 		4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */; };
+		4DA3CAC82570D92500315454 /* WinLossRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CAC72570D92500315454 /* WinLossRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 		4D0733632554F5D700849C62 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4D0733642554F5D700849C62 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		4D0733692554F7CA00849C62 /* Fighters.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fighters.xcassets; sourceTree = "<group>"; };
+		4D07337A2554FA3D00849C62 /* WinLossRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLossRecordView.swift; sourceTree = "<group>"; };
 		4D1329FB24DEF87D006D40C8 /* fightcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fightcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1329FE24DEF87D006D40C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		4D132A1724DEF87E006D40C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D132A2624DF041E006D40C8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterCellView.swift; sourceTree = "<group>"; };
+		4DA3CAC72570D92500315454 /* WinLossRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLossRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				4D0733622554F5D700849C62 /* Fighter.swift */,
-				4D0733632554F5D700849C62 /* Card.swift */,
 				4D0733642554F5D700849C62 /* Segment.swift */,
+				4D0733632554F5D700849C62 /* Card.swift */,
+				4DA3CAC72570D92500315454 /* WinLossRecord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 				4D132A0224DEF87D006D40C8 /* ContentView.swift */,
 				4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */,
 				4D132A2624DF041E006D40C8 /* AvatarView.swift */,
+				4D07337A2554FA3D00849C62 /* WinLossRecordView.swift */,
 				4D0733612554F5D700849C62 /* Models */,
 				4D132A0424DEF87E006D40C8 /* Assets.xcassets */,
 				4D0733692554F7CA00849C62 /* Fighters.xcassets */,
@@ -239,10 +245,12 @@
 				4D07336F2554F84200849C62 /* Fighter.swift in Sources */,
 				4D0733722554F84500849C62 /* Card.swift in Sources */,
 				4D0733752554F84800849C62 /* Segment.swift in Sources */,
+				4DA3CAC82570D92500315454 /* WinLossRecord.swift in Sources */,
 				4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */,
 				4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */,
 				4D132A0124DEF87D006D40C8 /* SceneDelegate.swift in Sources */,
 				4D132A0324DEF87D006D40C8 /* ContentView.swift in Sources */,
+				4D07337B2554FA3D00849C62 /* WinLossRecordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

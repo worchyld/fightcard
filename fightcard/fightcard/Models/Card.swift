@@ -9,6 +9,8 @@
 import Foundation
 
 struct Card {
-    let venue : String
-    let date : String    
+    let name: String
+    let venue: String
+    let date: String
+    var segments: [Segment]!
 }

@@ -14,14 +14,7 @@ struct FighterCellView: View {
         HStack {
             AvatarView(imageName: fighter.avatar)
             VStack(alignment: .leading, spacing: 2.0) {
-                Text(fighter.name).font(.subheadline).textContentType(.name)
-                HStack(alignment: .firstTextBaseline, spacing: 3, content: {
-                    Text(String(fighter.wins)).font(.caption)
-                    Text("-")
-                    Text(String(fighter.draws)).font(.caption)
-                    Text("-")
-                    Text(String(fighter.losses)).font(.caption)
-                })
+                Text(fighter.name).font(.subheadline).bold().textContentType(.name).frame(maxWidth: 85, alignment: .leading)
             }
         }
     }
@@ -30,7 +23,7 @@ struct FighterCellView: View {
 #if DEBUG
 struct FighterCellView_Previews: PreviewProvider {
     static var previews: some View {
-        FighterCellView(fighter: Fighter(name: "Derek Brunson", avatar: "derek-brunson", wins: 21, draws: 7, losses: 0))
+        FighterCellView(fighter: Fighter(name: "Connor McGreggor", avatar: "conor-mcgregor", wins: 0, draws: 0, losses: 0))
     }
 }
 #endif

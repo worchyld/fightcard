@@ -9,7 +9,7 @@
 import Foundation
 
 struct Segment {
-    let title: String
-    let subtitle: String
-    let fighters: [Fighter]
+    let title: String?
+    let subtitle: String?
+    var fighters: [Fighter]?
 }
