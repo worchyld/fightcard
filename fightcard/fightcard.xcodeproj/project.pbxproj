@@ -22,6 +22,7 @@
 		4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2624DF041E006D40C8 /* AvatarView.swift */; };
 		4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */; };
 		4DA3CAC82570D92500315454 /* WinLossRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CAC72570D92500315454 /* WinLossRecord.swift */; };
+		4DA3CACC2570DB5E00315454 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CACB2570DB5E00315454 /* CardTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4D132A2624DF041E006D40C8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterCellView.swift; sourceTree = "<group>"; };
 		4DA3CAC72570D92500315454 /* WinLossRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLossRecord.swift; sourceTree = "<group>"; };
+		4DA3CACB2570DB5E00315454 /* CardTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */,
 				4D132A0224DEF87D006D40C8 /* ContentView.swift */,
 				4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */,
+				4DA3CACB2570DB5E00315454 /* CardTitleView.swift */,
 				4D132A2624DF041E006D40C8 /* AvatarView.swift */,
 				4D07337A2554FA3D00849C62 /* WinLossRecordView.swift */,
 				4D0733612554F5D700849C62 /* Models */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1329FF24DEF87D006D40C8 /* AppDelegate.swift in Sources */,
+				4DA3CACC2570DB5E00315454 /* CardTitleView.swift in Sources */,
 				4D07336F2554F84200849C62 /* Fighter.swift in Sources */,
 				4D0733722554F84500849C62 /* Card.swift in Sources */,
 				4D0733752554F84800849C62 /* Segment.swift in Sources */,

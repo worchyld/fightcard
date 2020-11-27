@@ -12,21 +12,16 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                VStack(alignment: .center, spacing: 1.0) {
-                    Text("UFC Fight Night Card").font(.title).padding(.bottom, 10.0)
-                    Text("Sun, 2 Aug 2020").font(.caption)
-                    Text("Venue: UFC Apex, Las Vegas").font(.caption)
-                }
+                CardTitleView(cardTitle: CardTitle(headline: "UFC Fight Night Card", date: "Sun, 2 Aug 2020", venue: "Venue: UFC Apex, Las Vegas")
+                )
                 VStack {
                     Text("Middleweight · Main Event")
                         .font(.headline)
                         .padding(.top, 10.0)
                     HStack(alignment: .center, spacing: 15.0) {
                         HStack {
-                            FighterCellView(fighter: Fighter(name: "Derek Brunson", avatar: "derek-brunson", wins: 21, draws: 7, losses: 0))
-                        }
-                        HStack {
-                            FighterCellView(fighter: Fighter(name: "Khabib Nurmagomedov", avatar: "khabib-nurmagomedov", wins: 29, draws: 0, losses: 0))
+                            FighterCellView(fighter: Fighter(name: "Conor McGregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 1)))
+                            FighterCellView(fighter: Fighter(name: "Conor McGregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 1)))
                         }
                     }
                 }

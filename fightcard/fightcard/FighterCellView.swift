@@ -23,7 +23,7 @@ struct FighterCellView: View {
 #if DEBUG
 struct FighterCellView_Previews: PreviewProvider {
     static var previews: some View {
-        FighterCellView(fighter: Fighter(name: "Connor McGreggor", avatar: "conor-mcgregor", wins: 0, draws: 0, losses: 0))
+    FighterCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2)))
     }
 }
 #endif

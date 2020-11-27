@@ -11,8 +11,5 @@ import Foundation
 struct Fighter {
     let name : String
     let avatar: String
-    //let flag: String
-    let wins: Int
-    let draws: Int
-    let losses: Int
+    let record: WinLossRecord
 }
