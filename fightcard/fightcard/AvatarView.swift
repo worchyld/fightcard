@@ -11,7 +11,6 @@ import SwiftUI
 struct AvatarView: View {
     let imageName: String
     var body: some View {
-        //Image(uiImage: UIImage(named: self.imageName)!)
         Image(self.imageName)
             .resizable()
             .frame(maxWidth: 60, maxHeight: 60, alignment: .center)
@@ -26,7 +25,7 @@ struct AvatarView: View {
 #if DEBUG
 struct AvatarView_Previews: PreviewProvider {
     static var previews: some View {
-        AvatarView(imageName: "derek-brunson")
+        AvatarView(imageName: "conor-mcgregor")
     }
 }
 #endif
