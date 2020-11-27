@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct AvatarView: View {
+struct FighterAvatarView: View {
     let imageName: String
     var body: some View {
         Image(self.imageName)
@@ -25,7 +25,7 @@ struct AvatarView: View {
 #if DEBUG
 struct AvatarView_Previews: PreviewProvider {
     static var previews: some View {
-        AvatarView(imageName: "conor-mcgregor")
+        FighterAvatarView(imageName: "conor-mcgregor")
     }
 }
 #endif

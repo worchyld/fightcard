@@ -12,9 +12,9 @@ struct FighterLeftCellView: View {
     let fighter: Fighter
     var body: some View {
         HStack {
-            AvatarView(imageName: fighter.avatar)
+            FighterAvatarView(imageName: fighter.avatar)
             VStack(alignment: .leading, spacing: 0, content: {
-                Text("\(fighter.name)").font(.caption).fontWeight(.bold)
+                Text("\(fighter.name)").font(.caption)
                 WinLossRecordView(record: fighter.record)
             }).padding([.leading], 5.0)
         }
