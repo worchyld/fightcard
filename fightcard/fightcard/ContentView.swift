@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack {
                 CardTitleView(cardTitle: CardTitle(headline: "UFC Fight Night Card", date: "Sun, 2 Aug 2020", venue: "Venue: UFC Apex, Las Vegas")
                 )
-                            
+                // List of 8 segments/fights
                 List {
                     HStack(alignment: .center, spacing: 10.0, content: {
                         FighterLeftCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2))

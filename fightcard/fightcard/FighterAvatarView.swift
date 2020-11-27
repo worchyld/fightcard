@@ -15,10 +15,9 @@ struct FighterAvatarView: View {
             .resizable()
             .frame(maxWidth: 50, maxHeight: 50, alignment: .center)
             .clipShape(Circle())
-                   .shadow(radius: 10)
                    .overlay(
-                    Circle().stroke(Color(UIColor(red:135, green: 135, blue: 135, alpha: 1)),
-                                    lineWidth: 2))
+                    Circle().stroke(Color.gray, style: StrokeStyle(lineWidth: 2.5))
+                   )
     }
 }
 
