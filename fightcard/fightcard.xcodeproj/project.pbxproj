@@ -20,9 +20,10 @@
 		4D132A0B24DEF87E006D40C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D132A0924DEF87E006D40C8 /* LaunchScreen.storyboard */; };
 		4D132A1624DEF87E006D40C8 /* fightcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A1524DEF87E006D40C8 /* fightcardTests.swift */; };
 		4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D132A2624DF041E006D40C8 /* AvatarView.swift */; };
-		4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */; };
 		4DA3CAC82570D92500315454 /* WinLossRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CAC72570D92500315454 /* WinLossRecord.swift */; };
 		4DA3CACC2570DB5E00315454 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CACB2570DB5E00315454 /* CardTitleView.swift */; };
+		4DA3CAD02570DCDC00315454 /* FighterLeftCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CACF2570DCDC00315454 /* FighterLeftCellView.swift */; };
+		4DA3CAD42570DFA800315454 /* FighterRightCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3CAD32570DFA800315454 /* FighterRightCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +54,10 @@
 		4D132A1524DEF87E006D40C8 /* fightcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fightcardTests.swift; sourceTree = "<group>"; };
 		4D132A1724DEF87E006D40C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D132A2624DF041E006D40C8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterCellView.swift; sourceTree = "<group>"; };
 		4DA3CAC72570D92500315454 /* WinLossRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLossRecord.swift; sourceTree = "<group>"; };
 		4DA3CACB2570DB5E00315454 /* CardTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleView.swift; sourceTree = "<group>"; };
+		4DA3CACF2570DCDC00315454 /* FighterLeftCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterLeftCellView.swift; sourceTree = "<group>"; };
+		4DA3CAD32570DFA800315454 /* FighterRightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterRightCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +113,11 @@
 				4D1329FE24DEF87D006D40C8 /* AppDelegate.swift */,
 				4D132A0024DEF87D006D40C8 /* SceneDelegate.swift */,
 				4D132A0224DEF87D006D40C8 /* ContentView.swift */,
-				4D2CE29F2554873C00C61ED8 /* FighterCellView.swift */,
-				4DA3CACB2570DB5E00315454 /* CardTitleView.swift */,
+				4DA3CACF2570DCDC00315454 /* FighterLeftCellView.swift */,
+				4DA3CAD32570DFA800315454 /* FighterRightCellView.swift */,
 				4D132A2624DF041E006D40C8 /* AvatarView.swift */,
 				4D07337A2554FA3D00849C62 /* WinLossRecordView.swift */,
+				4DA3CACB2570DB5E00315454 /* CardTitleView.swift */,
 				4D0733612554F5D700849C62 /* Models */,
 				4D132A0424DEF87E006D40C8 /* Assets.xcassets */,
 				4D0733692554F7CA00849C62 /* Fighters.xcassets */,
@@ -251,10 +254,11 @@
 				4D0733752554F84800849C62 /* Segment.swift in Sources */,
 				4DA3CAC82570D92500315454 /* WinLossRecord.swift in Sources */,
 				4D132A2724DF041E006D40C8 /* AvatarView.swift in Sources */,
-				4D2CE2A02554873C00C61ED8 /* FighterCellView.swift in Sources */,
 				4D132A0124DEF87D006D40C8 /* SceneDelegate.swift in Sources */,
+				4DA3CAD42570DFA800315454 /* FighterRightCellView.swift in Sources */,
 				4D132A0324DEF87D006D40C8 /* ContentView.swift in Sources */,
 				4D07337B2554FA3D00849C62 /* WinLossRecordView.swift in Sources */,
+				4DA3CAD02570DCDC00315454 /* FighterLeftCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

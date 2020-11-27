@@ -16,14 +16,14 @@ struct ContentView: View {
                 )
                 VStack {
                     Text("Middleweight · Main Event")
-                        .font(.headline)
+                        .font(.caption).fontWeight(.bold)
                         .padding(.top, 10.0)
-                    HStack(alignment: .center, spacing: 15.0) {
-                        HStack {
-                            FighterCellView(fighter: Fighter(name: "Conor McGregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 1)))
-                            FighterCellView(fighter: Fighter(name: "Conor McGregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 1)))
-                        }
-                    }
+                    
+                    FighterLeftCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2))
+                    )
+                    
+                    FighterRightCellView(fighter: Fighter(name: "Conor Mcgregor", avatar: "conor-mcgregor", record: WinLossRecord(wins: 3, losses: 2, draws: 2))
+                    )
                 }
             }
             .frame(width: geometry.size.width,
